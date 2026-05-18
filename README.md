@@ -1,6 +1,8 @@
 # GN-v18 Cortical State Bank Laboratory
 ### Multi-Electrode Laplace-Beltrami Manifold Analyzer & Causal State Emulator
 
+![pic](tmpbdx70uyp.png)
+
 **PerceptionLab Helsinki — 2026** *Theoretical Framework: Geometric Attractor Inversion Theory (GAIT)*
 
 ---
