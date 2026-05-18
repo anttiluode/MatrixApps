@@ -74,6 +74,7 @@ The GN-v18 workspace is organized into a modular, dashboard-driven environment:
         ┌───────────────────────────┼───────────────────────────┐
         ▼                           ▼                           ▼
 ┌───────────────────────┐   ┌───────────────────────┐   ┌───────────────────────┐│   Manifold Browser    │   │  Dynamic Connectome   │   │ Causal State Emulator │├───────────────────────┤   ├───────────────────────┤   ├───────────────────────┤│ Visuallizes the 3D    │   │ Calculates functional │   │ Injects thermodynamic ││ attractor structures  │   │ alignment distances   │   │ vector shocks to test ││ & tangent fields per  │   │ & clusters brain      │   │ Lyapunov basin        ││ electrode node.       │   │ regions via linkage.  │   │ recovery vs mutation. │└───────────────────────┘   └───────────────────────┘   └───────────────────────┘
+
 ### Tab 1: Manifold Browser & State Bank
 * **Electrode Saccading:** Instantly switch between any electrode target captured in the EDF record (e.g., `Fp1`, `O2`, `C3`) to inspect its native geometric morphology.
 * **Crystalline Quantization:** Tune the kernel bandwidth ($\epsilon$), embedding depth ($d$), and window size ($k$) tightly to compress smooth, analog "frayed ribbons" into discrete, blocky state blocks. 
@@ -100,5 +101,18 @@ The GN-v18 workspace is organized into a modular, dashboard-driven environment:
 Ensure your Python environment has the following packages installed:
 ```bash
 pip install numpy scipy matplotlib gradio mne soundfile
-ExecutionSave the engine file as cortical_emulator2.py and run it from your document house directory:Bashpython3 cortical_emulator2.py
-Open your local web browser and navigate to the port indicated in the terminal (default is http://localhost:7860).Operating Parameter GuideParameterOperational DomainLower Settings Impact (↓)Higher Settings Impact (↑)$\tau$ (Delay Spacing)Attractor UnrollingHyper-localized, high collinearity; reveals sharp "CPU-like" logical grids.Expanded macro-scale trajectory loops; exposes fluid, continuous geometries.$d$ (Embedding Depth)State DimensionalityFast, simplified geometric projections; reduces computational complexity.Deep temporal tracking; uncovers nested trajectories and complex limit-cycles.$\epsilon$ (Kernel Bandwidth)Manifold Affinity GraphBreaks long-range connections; quantizes the affinity matrix into hard block gates.Smooths out boundaries; creates homogenous global diffusion fields across states.$k$-Neighbors (SVD Window)Tangent Space ResolutionEvaluates velocity from tight, point-to-point steps; highly sensitive to phase shifts.Averages out local micro-jitters to expose the global macro-highway of the rhythm.
+```
+
+# Execution
+
+Save the engine file as cortical_emulator2.py and run it from your document house directory:
+
+```Bash
+python3 cortical_emulator2.py
+```
+
+Open your local web browser and navigate to the port indicated in the terminal (default is http://localhost:7860).
+
+# Operating Parameter
+
+GuideParameterOperational DomainLower Settings Impact (↓)Higher Settings Impact (↑)$\tau$ (Delay Spacing)Attractor UnrollingHyper-localized, high collinearity; reveals sharp "CPU-like" logical grids.Expanded macro-scale trajectory loops; exposes fluid, continuous geometries.$d$ (Embedding Depth)State DimensionalityFast, simplified geometric projections; reduces computational complexity.Deep temporal tracking; uncovers nested trajectories and complex limit-cycles.$\epsilon$ (Kernel Bandwidth)Manifold Affinity GraphBreaks long-range connections; quantizes the affinity matrix into hard block gates.Smooths out boundaries; creates homogenous global diffusion fields across states.$k$-Neighbors (SVD Window)Tangent Space ResolutionEvaluates velocity from tight, point-to-point steps; highly sensitive to phase shifts.Averages out local micro-jitters to expose the global macro-highway of the rhythm.
