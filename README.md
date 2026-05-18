@@ -62,6 +62,7 @@ $$\kappa = \frac{S_1}{S_0}$$
 
 The GN-v18 workspace is organized into a modular, dashboard-driven environment:
 
+```Bash
                       ┌──────────────────────────┐
                       │     Multi-Channel EDF    │
                       └─────────────┬────────────┘
@@ -81,6 +82,7 @@ The GN-v18 workspace is organized into a modular, dashboard-driven environment:
 │ & tangent fields per  │   │ & clusters brain      │   │ Lyapunov basin        │
 │ electrode node.       │   │ regions via linkage.  │   │ recovery vs mutation. │
 └───────────────────────┘   └───────────────────────┘   └───────────────────────┘
+```
 
 ### Tab 1: Manifold Browser & State Bank
 * **Electrode Saccading:** Instantly switch between any electrode target captured in the EDF record (e.g., `Fp1`, `O2`, `C3`) to inspect its native geometric morphology.
