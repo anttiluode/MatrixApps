@@ -133,7 +133,7 @@ Open your local web browser and navigate to the port indicated in the terminal (
 
 # Cortical Compiler 
 
-# The Compiler: From Brain Waves to Executable Programs
+# The Compiler: (Cortical_Compiler.py) From Brain Waves to Executable Programs
 
 ![pic](tmpruy6q0ll.png)
 
