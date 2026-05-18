@@ -72,7 +72,7 @@ The GN-v18 workspace is organized into a modular, dashboard-driven environment:
                       └─────────────┬────────────┘
                                     │
         ┌───────────────────────────┼───────────────────────────┐
-        ▼                           ▼                           ▼
+                                                              
 ┌───────────────────────┐   ┌───────────────────────┐   ┌───────────────────────┐
 │   Manifold Browser    │   │  Dynamic Connectome   │   │ Causal State Emulator │
 ├───────────────────────┤   ├───────────────────────┤   ├───────────────────────┤
