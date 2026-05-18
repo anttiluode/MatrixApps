@@ -19,6 +19,8 @@ The result is an objective mechanics simulator that tokenizes brain states into 
 
 ## Mathematical Foundations
 
+![Pic2](tmpmgoth1s6.png)
+
 The architecture operates entirely on un-fooled, rigid linear algebra and differential geometry divided into four main layers:
 
 ### 1. Attractor Reconstruction (Takens Delay Space)
